@@ -6,3 +6,4 @@ function Mouse(color, weight)
 Mouse.prototype.sleep = function() {
 	console.log('Zzzz ...');
 };
+module.exports = Mouse;
